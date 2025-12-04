@@ -4,7 +4,7 @@ const ReviewPage = () => {
   return (
     <div className="min-h-dvh bg-white">
       <div className="flex justify-center">
-        <div className="max-w-[1250px] max-h-[800px] flex flex-col  ">
+        <div className="max-w-[1250px] max-h-[800px]">
           <div className="max-w-[619px] mx-auto">
             <h3 className="text-[#BCA4FF] font-semibold mb-9 text-center ">
               PLANNING AHEAD

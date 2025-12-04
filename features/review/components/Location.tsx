@@ -49,13 +49,13 @@ const Location = () => {
     <>
       <Link
         href={LocData[0].href}
-        className="max-w-[300px] min-h-[140px] flex absolute left-[-130px]"
+        className="max-w-[305px] min-h-[140px] flex absolute left-[-130px]"
       >
-        <div className="flex gap-[43px]">
+        <div className="flex gap-[43px] ">
           <p className="font-semibold text-[18px] text-[#4E4B66] ">
             {LocData[0].text}
           </p>
-          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10">
+          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10 hover:scale-125 ease-in-out transition-all duration-300">
             <div className="w-[52px] h-[52px] rounded-full border-[2px] border-[#5F2EEA] flex justify-center items-center">
               <FrontArrow className="max-w-[24px] max-h-[24px] min-w-[24px] min-h-[24px] text-[#602eea] " />
             </div>
@@ -64,13 +64,13 @@ const Location = () => {
       </Link>
       <Link
         href={LocData[1].href}
-        className="max-w-[300px] min-h-[140px] absolute top-[180px] left-[-170px]"
+        className="max-w-[305px] min-h-[140px] absolute top-[180px] left-[-170px]"
       >
-        <div className="flex gap-[43px]">
+        <div className="flex gap-[43px] ">
           <p className="font-semibold text-[18px] text-[#4E4B66] ">
             {LocData[1].text}
           </p>
-          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10">
+          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10 hover:scale-125 ease-in-out transition-all duration-300">
             <div className="w-[52px] h-[52px] rounded-full border-[2px] border-[#5F2EEA] flex justify-center items-center">
               <FrontArrow className="max-w-[24px] max-h-[24px] min-w-[24px] min-h-[24px] text-[#602eea] " />
             </div>
@@ -79,13 +79,13 @@ const Location = () => {
       </Link>
       <Link
         href={LocData[2].href}
-        className="max-w-[300px] min-h-[140px]  absolute top-[365px] left-[-130px]"
+        className="max-w-[305px] min-h-[140px]  absolute top-[365px] left-[-130px]"
       >
         <div className="flex gap-[43px]">
           <p className="font-semibold text-[18px] text-[#4E4B66] ">
             {LocData[2].text}
           </p>
-          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10">
+          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10 hover:scale-125 ease-in-out transition-all duration-300">
             <div className="w-[52px] h-[52px] rounded-full border-[2px] border-[#5F2EEA] flex justify-center items-center">
               <FrontArrow className="max-w-[24px] max-h-[24px] min-w-[24px] min-h-[24px] text-[#602eea] " />
             </div>
@@ -101,10 +101,10 @@ const Location = () => {
 
       <Link
         href={LocData[3].href}
-        className="max-w-[300px] min-h-[140px] absolute right-[-130px] "
+        className="max-w-[305px] min-h-[140px] absolute right-[-130px] "
       >
         <div className="flex gap-[43px]">
-          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10">
+          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10 hover:scale-125 ease-in-out transition-all duration-300">
             <div className="w-[52px] h-[52px] rounded-full border-[2px] border-[#5F2EEA] flex justify-center items-center">
               <BackArrow className="max-w-[24px] max-h-[24px] min-w-[24px] min-h-[24px] text-[#602eea] " />
             </div>
@@ -116,10 +116,10 @@ const Location = () => {
       </Link>
       <Link
         href={LocData[4].href}
-        className="max-w-[300px] min-h-[140px] absolute top-[180px] right-[-170px]"
+        className="max-w-[305px] min-h-[140px] absolute top-[180px] right-[-170px]"
       >
         <div className="flex gap-[43px]">
-          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10">
+          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10 hover:scale-125 ease-in-out transition-all duration-300">
             <div className="w-[52px] h-[52px] rounded-full border-[2px] border-[#5F2EEA] flex justify-center items-center">
               <BackArrow className="max-w-[24px] max-h-[24px] min-w-[24px] min-h-[24px] text-[#602eea] " />
             </div>
@@ -131,10 +131,10 @@ const Location = () => {
       </Link>
       <Link
         href={LocData[5].href}
-        className="max-w-[300px] min-h-[140px] absolute top-[365px] right-[-130px]"
+        className="max-w-[305px] min-h-[140px] absolute top-[365px] right-[-130px]"
       >
         <div className="flex gap-[43px]">
-          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10">
+          <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-full border-[8px] border-[#5F2EEA]/10 hover:scale-125 ease-in-out transition-all duration-300">
             <div className="w-[52px] h-[52px] rounded-full border-[2px] border-[#5F2EEA] flex justify-center items-center">
               <BackArrow className="max-w-[24px] max-h-[24px] min-w-[24px] min-h-[24px] text-[#602eea] " />
             </div>
