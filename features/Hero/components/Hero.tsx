@@ -1,7 +1,11 @@
+import "../global.css";
+
 const Hero = () => {
   return (
-    <div>
-      <h2 className="text-size-8">Plan your next big trip overseas.</h2>
+    <div className="">
+      <h2 className="bg-[var(--foreground)]  text-[64px] leading-[66px] font text-[#4E4B66] max-w-[669px] tracking-[1px]">
+        Plan your next big trip overseas.
+      </h2>
       <div>
         <button>BEGIN PLANS</button>
         <button>REVIEW PLANS</button>
