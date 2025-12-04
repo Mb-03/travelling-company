@@ -1,5 +1,6 @@
 "use client";
 
+import UnderHero from "@/features/under-hero-section/components/UnderHero";
 import Image from "next/image";
 
 const Hero = () => {
