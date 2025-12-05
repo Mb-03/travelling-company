@@ -1,10 +1,11 @@
-import LandingPage from "@/features/landing/components/LandingPage"
+import ToolListComponent from "@/features/toollist/components/ToolListComponent"
+
 
 
 const Home = () => {
   return (
     <div>
-      <LandingPage />
+     <ToolListComponent />
     </div>
   )
 }
