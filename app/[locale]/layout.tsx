@@ -37,14 +37,14 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang={locale}>
+    <html>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider locale={locale}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <QueryProvider>{children}</QueryProvider>
-          </ThemeProvider>
+          {/* <ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
+          <QueryProvider>{children}</QueryProvider>
+          {/* </ThemeProvider> */}
         </NextIntlClientProvider>
         <Toaster />
       </body>
