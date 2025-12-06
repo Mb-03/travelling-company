@@ -47,9 +47,9 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
       >
         <NextIntlClientProvider locale={locale}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <QueryProvider>{children}</QueryProvider>
-          </ThemeProvider>
+          {/* <ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
+          <QueryProvider>{children}</QueryProvider>
+          {/* </ThemeProvider> */}
         </NextIntlClientProvider>
         <Toaster />
       </body>
