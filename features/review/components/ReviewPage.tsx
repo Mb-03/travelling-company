@@ -2,7 +2,7 @@ import Location from "./Location";
 
 const ReviewPage = () => {
   return (
-    <div className="min-h-dvh  ">
+    <div className="min-h-dvh">
       <div className="flex justify-center">
         <div className="max-w-[1250px] max-h-[800px]">
           <div className="max-w-[619px] mx-auto">
