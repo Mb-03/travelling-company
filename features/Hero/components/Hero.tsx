@@ -15,7 +15,7 @@ const Hero = () => {
           <button className="w-[243px] h-16 rounded-[40px] bg-[#5F2EEA] border-none">
             BEGIN PLANS
           </button>
-          <button className="w-[243px] h-16 rounded-[40px] bg-white border-2 border-[#5F2EEA] text-[#5F2EEA]">
+          <button className="max-w-[243px] h-16 rounded-[40px] bg-white border-2 border-[#5F2EEA] text-[#5F2EEA]">
             REVIEW PLANS
           </button>
         </div>
