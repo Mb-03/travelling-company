@@ -7,6 +7,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/features/i18n/routing";
 import { ThemeProvider } from "next-themes";
 import { QueryProvider } from "@/features/query/QueryProvider";
+import Footer from "@/features/common/footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,8 +43,10 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider locale={locale}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <QueryProvider>{children}</QueryProvider>
+          <ThemeProvider attribute="class" defaultTheme="light">
+            <QueryProvider>
+              {children} <Footer />
+            </QueryProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
         <Toaster />
