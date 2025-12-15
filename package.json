@@ -20,9 +20,11 @@
     "react-dom": "19.2.0",
     "react-hook-form": "^7.67.0",
     "react-hot-toast": "^2.6.0",
+    "swiper": "^12.0.3",
     "zod": "^4.1.13"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
